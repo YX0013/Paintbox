@@ -37,10 +37,10 @@ function draw() {
     edges=createEdgeSprites();
     ball.bounceOff(edges);
 
-    ball.bounceOff(block1);
-    ball.bounceOff(block2);
-    ball.bounceOff(block3);
-    ball.bounceOff(block4);
+    //ball.bounceOff(block1);
+    //ball.bounceOff(block2);
+    //ball.bounceOff(block3);
+    //ball.bounceOff(block4);
     //write code to bounce off ball from the block1 
     if(block1.isTouching(ball)&&ball.bounceOff(block1)){
         ball.shapeColor = "blue";
